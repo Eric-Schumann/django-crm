@@ -25,7 +25,7 @@ SECRET_KEY = '(c7!0hyj2cu9b&d9@8m3rz1s6&y^nabyiz53rsy=%x)i%^g5br'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://bc1d25871ce540be80719ab238078d6d.vfs.cloud9.us-east-2.amazonaws.com/', '*']
 
 
 # Application definition
@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    #'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'crm.urls'
